@@ -1,5 +1,6 @@
 
 Please find the Manual Test cases at :  https://docs.google.com/spreadsheets/d/1BwG8e-cSYU_ecEp2U0411O736Ela2bFMXUlgtB-B29Y/edit#gid=0
+
 The test cases from the sheet that have been automated are marked in the column to maintain traceability. The test architecture is based on Page Object Model.
 
 **How to run the tests?**
