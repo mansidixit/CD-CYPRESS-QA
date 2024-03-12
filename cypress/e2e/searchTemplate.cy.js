@@ -29,7 +29,7 @@ describe('Search Template spec', () => {
 
 
   it(' Verify Search by category has a default list on  page load - Instagram , Facebook ,Website,Business card,letter head ', () => {
-    filterSearch.verifyDefaultCategoryList();
+    filter.verifyDefaultCategoryList();
   })
 
   it('Verify Search by popularity has a default list on  page load - Sale,Food , Coming soon ,give away,Beauty,Cleaning ', () => {
@@ -42,7 +42,7 @@ describe('Search Template spec', () => {
          searchResult.verifySearchResultTitle(searchTxt);
         searchResult.verifyMasonrySearchResultsExist();
         
-        filterSearch.
+        filter.selectCategory("Facebook")
 
   })
 
